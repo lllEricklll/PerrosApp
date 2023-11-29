@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PerrosApp/build/static/css/main.93818162.css",
-    "main.js": "/PerrosApp/build/static/js/main.936e5363.js",
+    "main.js": "/PerrosApp/build/static/js/main.943da300.js",
     "static/js/787.9a36d2f0.chunk.js": "/PerrosApp/build/static/js/787.9a36d2f0.chunk.js",
     "static/media/charli.jpg": "/PerrosApp/build/static/media/charli.3b5c53540089beaf38b7.jpg",
     "static/media/canela.jpg": "/PerrosApp/build/static/media/canela.7afca20fc6bc01d5a6ca.jpg",
@@ -41,11 +41,11 @@
     "static/media/pethotel.png": "/PerrosApp/build/static/media/pethotel.dcb57d651a849abdb243.png",
     "index.html": "/PerrosApp/build/index.html",
     "main.93818162.css.map": "/PerrosApp/build/static/css/main.93818162.css.map",
-    "main.936e5363.js.map": "/PerrosApp/build/static/js/main.936e5363.js.map",
+    "main.943da300.js.map": "/PerrosApp/build/static/js/main.943da300.js.map",
     "787.9a36d2f0.chunk.js.map": "/PerrosApp/build/static/js/787.9a36d2f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93818162.css",
-    "static/js/main.936e5363.js"
+    "static/js/main.943da300.js"
   ]
 }
