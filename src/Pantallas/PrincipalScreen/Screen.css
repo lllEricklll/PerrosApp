@@ -1,0 +1,26 @@
+/* Estilos para el texto de la dieta */
+.text-box {
+  color: #838383;
+  font-size: 22px;
+  font-family: 'Ropa Sans';
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+/* Estilos para la información del perro */
+.dog-info {
+  color: black;
+  font-size: 36px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+/* Estilos para el texto "Adoptame!!!" */
+.adopt-me-box {
+  color: white;
+  font-size: 22px;
+  font-family: 'Ropa Sans';
+  font-weight: 400;
+  word-wrap: break-word;
+}

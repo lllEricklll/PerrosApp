@@ -1,0 +1,128 @@
+.welcome {
+    background-color: #faf2d3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .welcome .div {
+    background-color: #faf2d3;
+    width: 414px;
+    height: 736px;
+    position: relative;
+  }
+  
+  .welcome .group {
+    position: absolute;
+    width: 207px;
+    height: 66px;
+    top: 667px;
+    left: 185px;
+  }
+  
+  .welcome .image {
+    position: absolute;
+    width: 76px;
+    height: 66px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .welcome .img {
+    position: absolute;
+    width: 52px;
+    height: 44px;
+    top: 11px;
+    left: 85px;
+  }
+  
+  .welcome .image-2 {
+    position: absolute;
+    width: 48px;
+    height: 44px;
+    top: 11px;
+    left: 159px;
+    object-fit: cover;
+  }
+  
+  .welcome .overlap-group-wrapper {
+    position: absolute;
+    width: 229px;
+    height: 45px;
+    top: 301px;
+    left: 88px;
+  }
+  
+  .welcome .overlap-group {
+    position: relative;
+    width: 227px;
+    height: 45px;
+    background-color: #233b6e;
+    border-radius: 20px;
+  }
+  
+  .welcome .text-wrapper {
+    position: absolute;
+    top: 9px;
+    left: 30px;
+    font-family: "Fira Code", Helvetica;
+    font-weight: 700;
+    color: #faf2d3;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .welcome .overlap-wrapper {
+    position: absolute;
+    width: 229px;
+    height: 45px;
+    top: 369px;
+    left: 88px;
+  }
+  
+  .welcome .text-wrapper-2 {
+    position: absolute;
+    top: 9px;
+    left: 48px;
+    font-family: "Fira Code", Helvetica;
+    font-weight: 700;
+    color: #faf2d3;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .welcome .text-wrapper-3 {
+    position: absolute;
+    width: 166px;
+    top: 689px;
+    left: 19px;
+    font-family: "Fira Code", Helvetica;
+    font-weight: 600;
+    color: #2e5da2;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .welcome .image-3 {
+    position: absolute;
+    width: 317px;
+    height: 179px;
+    top: 451px;
+    left: 48px;
+    object-fit: cover;
+  }
+  
+  .welcome .uwu-removebg {
+    position: absolute;
+    width: 230px;
+    height: 216px;
+    top: 48px;
+    left: 92px;
+  }
+  

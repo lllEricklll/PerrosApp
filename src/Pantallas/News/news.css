@@ -1,0 +1,237 @@
+:root {
+    --primario: #141E46;
+    --primarioOscuro: #FFF5E0;
+    --secundario: #FF6969;
+    --secundarioOscuro: #c83660;
+    --blanco: #FFF5E0;
+    --negro: #000;
+
+    --fuentePrincipal: 'Staatliches', cursive;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/** Globales **/
+body {
+    background: linear-gradient(#FAF2D3, #F4866E);;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+p {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2E5DA2;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    text-align: center;
+    color: var(--secundario);
+    font-family: var(--fuentePrincipal);
+}
+h1 {
+    font-size: 4rem;
+    color: #F4866E;
+}
+h2 {
+    font-size: 3.2rem;
+}
+h3 {
+    font-size: 2.4rem;
+}
+
+/** Header **/
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header__logo {
+    width: 10rem;
+    height: 10rem;
+}
+
+/** Footer **/
+.footer {
+    background-color: #2E5DA2;
+    position: sticky;
+}
+.footer__texto {
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+    font-size: 2.2rem;
+    color: #FAF2D3;
+}
+
+/** Navegacion **/
+.navegacion {
+    background-color: #2E5DA2;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.navegacion__enlace {
+    font-family: var(--fuentePrincipal);
+    color: #F4866E;
+    font-size: 3rem;
+}
+
+.navegacion__enlace--activo,
+.navegacion__enlace:hover {
+    color: var(--primarioOscuro);
+}
+
+/** Grid **/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        padding: 1rem 2rem;
+    }
+}
+
+/** Productos **/
+.producto {
+    background-color: var(--primarioOscuro);
+    padding: 1rem;
+}
+.producto__nombre {
+    font-size: 4rem;
+    color: #000;
+    text-align: end;
+    margin: auto;
+}
+.producto__precio {
+    font-size: 2.8rem;
+    color: var(--secundario);
+}
+.producto__imagen {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    padding: 1rem 2.5rem;
+}
+.producto__nombre,
+.producto__precio {
+    font-family: var(--fuentePrincipal);
+    margin: 1rem 0;
+    text-align: center;
+    line-height: 1.2;
+}
+
+/** Nosotros **/
+.nosotros {
+    background-color: rgba(250, 242, 211, 0);
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .nosotros {
+        grid-template-rows: repeat(2, auto);
+        gap: 2rem;
+        margin: 1rem 2rem;
+    }
+}
+
+.nosotros__imagen {
+    background-color: rgba(99, 98, 143, 0.5);
+    width: 60rem;
+    height: 35rem;
+    margin: auto;
+    display: block;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+@media (max-width: 768px) {
+    .nosotros__imagen {
+        width: 100%;
+    }
+}
+
+/** Bloques **/
+
+.comprar__titulo{
+    color: #141E46;
+}
+
+.bloques {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+@media (max-width: 768px) {
+    .bloques {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        padding: 1rem 2rem;
+    }
+}
+.bloque {
+    text-align: center;
+}
+.bloque__titulo {
+    margin: 0;
+}
+.bloque__imagen{
+    width:50rem;
+    height: 30rem;
+    margin: auto;
+    display: block;
+    padding: 1rem 2.5rem;
+    border-radius: 10rem;
+}
+
+/** Pagina del Producto **/
+.camisa {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.camisaback {
+    background-color: #FFF5E0;
+    padding: 1rem;
+}
+.camisa__imagen {
+    width: max-content;
+    margin: auto;
+    display: block;
+    padding: 2.5rem;
+}
+.camisa__contenido {
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    padding: 2.5rem;
+}
+@media (max-width: 768px) {
+    .camisa {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem 2rem;
+    }
+}
